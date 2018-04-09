@@ -23,3 +23,8 @@ WIN_COMBINATIONS.any? do |win_combination|
     end 
   end
 end
+def full?
+
+
+
+end
