@@ -24,7 +24,7 @@ WIN_COMBINATIONS.any? do |win_combination|
   end
 end
 def full?(board)
-board.detect?
+board.detect
 
 
 end
