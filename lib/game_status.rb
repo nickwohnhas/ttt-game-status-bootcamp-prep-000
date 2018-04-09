@@ -23,7 +23,7 @@ WIN_COMBINATIONS.any? do |win_combination|
     end 
   end
 end
-def full?
+def full?(board)
 
 
 
