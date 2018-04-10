@@ -39,7 +39,7 @@ end
 
 end
 def winner(board)
-if won?
+if won?(board)
 winning_combo = won?(board)
 winning_value = winning_combo[0]
 token = board[winning_value]
