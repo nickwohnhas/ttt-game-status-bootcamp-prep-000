@@ -25,6 +25,4 @@ WIN_COMBINATIONS.any? do |win_combination|
 end
 def full?(board)
 !board.include?(" ")
-
-
 end
