@@ -40,7 +40,8 @@ end
 end
 def winner(board)
 winning_combo = won?(board)
-token = winning_combo[0]
+winning_value = winning_combo[0]
+token = board[winning_value]
 return token
 
 end
