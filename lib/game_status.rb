@@ -39,5 +39,9 @@ end
 
 end
 def winner(board)
-
+token = won?(board)
+if token.include?("X")
+  return "X"
+else return "O"
+end
 end
