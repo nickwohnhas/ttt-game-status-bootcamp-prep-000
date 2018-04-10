@@ -39,9 +39,7 @@ end
 
 end
 def winner(board)
-if won?(board).include?("X")
-  return "X"
-else return "O"
-end
+token = won?(board)
+board[token]
 
 end
