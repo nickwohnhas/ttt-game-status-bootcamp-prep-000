@@ -38,3 +38,6 @@ if won?(board) || draw?(board) || full?(board)
 end
 
 end
+def winner(board)
+
+end
